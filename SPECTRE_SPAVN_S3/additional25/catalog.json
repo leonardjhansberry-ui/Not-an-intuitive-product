@@ -1,0 +1,177 @@
+[
+  {
+    "number": 26,
+    "name": "StartCounter",
+    "purpose": "Persistent boot counter",
+    "path": "additional25/26/StartCounter",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/Preferences/examples/StartCounter"
+  },
+  {
+    "number": 27,
+    "name": "Prefs2Struct",
+    "purpose": "Store structured settings",
+    "path": "additional25/27/Prefs2Struct",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/Preferences/examples/Prefs2Struct"
+  },
+  {
+    "number": 28,
+    "name": "WiFiAccessPoint",
+    "purpose": "Standalone Wi-Fi access point",
+    "path": "additional25/28/WiFiAccessPoint",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiAccessPoint"
+  },
+  {
+    "number": 29,
+    "name": "WiFiClientBasic",
+    "purpose": "TCP client for lab connections",
+    "path": "additional25/29/WiFiClientBasic",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiClientBasic"
+  },
+  {
+    "number": 30,
+    "name": "WiFiUDPClient",
+    "purpose": "UDP messaging",
+    "path": "additional25/30/WiFiUDPClient",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiUDPClient"
+  },
+  {
+    "number": 31,
+    "name": "WiFiClientEvents",
+    "purpose": "Connection/disconnection events",
+    "path": "additional25/31/WiFiClientEvents",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiClientEvents"
+  },
+  {
+    "number": 32,
+    "name": "WiFiClientStaticIP",
+    "purpose": "Fixed network address",
+    "path": "additional25/32/WiFiClientStaticIP",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiClientStaticIP"
+  },
+  {
+    "number": 33,
+    "name": "WiFiMulti",
+    "purpose": "Reconnect across configured networks",
+    "path": "additional25/33/WiFiMulti",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiMulti"
+  },
+  {
+    "number": 34,
+    "name": "WiFiScanAsync",
+    "purpose": "Nonblocking network scans",
+    "path": "additional25/34/WiFiScanAsync",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/WiFi/examples/WiFiScanAsync"
+  },
+  {
+    "number": 35,
+    "name": "BasicHttpClient",
+    "purpose": "HTTP data requests",
+    "path": "additional25/35/BasicHttpClient",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/HTTPClient/examples/BasicHttpClient"
+  },
+  {
+    "number": 36,
+    "name": "BasicHttpsClient",
+    "purpose": "HTTPS data requests",
+    "path": "additional25/36/BasicHttpsClient",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/HTTPClient/examples/BasicHttpsClient"
+  },
+  {
+    "number": 37,
+    "name": "CustomHeaders",
+    "purpose": "HTTP metadata and headers",
+    "path": "additional25/37/CustomHeaders",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/HTTPClient/examples/CustomHeaders"
+  },
+  {
+    "number": 38,
+    "name": "AsyncUDPServer",
+    "purpose": "Asynchronous UDP receiver",
+    "path": "additional25/38/AsyncUDPServer",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/AsyncUDP/examples/AsyncUDPServer"
+  },
+  {
+    "number": 39,
+    "name": "mDNS_Web_Server",
+    "purpose": "Discover devices by local hostname",
+    "path": "additional25/39/mDNS_Web_Server",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESPmDNS/examples/mDNS_Web_Server"
+  },
+  {
+    "number": 40,
+    "name": "SimpleTime",
+    "purpose": "Network clock synchronization",
+    "path": "additional25/40/SimpleTime",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/Time/SimpleTime"
+  },
+  {
+    "number": 41,
+    "name": "WireScan",
+    "purpose": "Discover attached I2C sensors",
+    "path": "additional25/41/WireScan",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/Wire/examples/WireScan"
+  },
+  {
+    "number": 42,
+    "name": "GetChipID",
+    "purpose": "Identify the ESP chip",
+    "path": "additional25/42/GetChipID",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/ChipID/GetChipID"
+  },
+  {
+    "number": 43,
+    "name": "GetMacAddress",
+    "purpose": "Identify radio addresses",
+    "path": "additional25/43/GetMacAddress",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/MacAddress/GetMacAddress"
+  },
+  {
+    "number": 44,
+    "name": "ResetReason2",
+    "purpose": "Report reset causes",
+    "path": "additional25/44/ResetReason2",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/ResetReason/ResetReason2"
+  },
+  {
+    "number": 45,
+    "name": "AnalogRead",
+    "purpose": "Read analog sensors",
+    "path": "additional25/45/AnalogRead",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/AnalogRead"
+  },
+  {
+    "number": 46,
+    "name": "RepeatTimer",
+    "purpose": "Scheduled hardware timer events",
+    "path": "additional25/46/RepeatTimer",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/Timer/RepeatTimer"
+  },
+  {
+    "number": 47,
+    "name": "Queue",
+    "purpose": "Pass messages between tasks",
+    "path": "additional25/47/Queue",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/FreeRTOS/Queue"
+  },
+  {
+    "number": 48,
+    "name": "Mutex",
+    "purpose": "Protect shared task resources",
+    "path": "additional25/48/Mutex",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/FreeRTOS/Mutex"
+  },
+  {
+    "number": 49,
+    "name": "TimerWakeUp",
+    "purpose": "Timed low-power wakeup",
+    "path": "additional25/49/TimerWakeUp",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/DeepSleep/TimerWakeUp"
+  },
+  {
+    "number": 50,
+    "name": "TouchRead",
+    "purpose": "Capacitive touch input",
+    "path": "additional25/50/TouchRead",
+    "source": "https://github.com/espressif/arduino-esp32/tree/3.3.1/libraries/ESP32/examples/Touch/TouchRead"
+  }
+]

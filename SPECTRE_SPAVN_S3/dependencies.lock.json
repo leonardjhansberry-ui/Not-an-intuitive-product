@@ -1,0 +1,114 @@
+[
+  {
+    "name": "GFX Library for Arduino",
+    "version": "1.6.8",
+    "url": "https://downloads.arduino.cc/libraries/github.com/moononournation/GFX_Library_for_Arduino-1.6.8.zip",
+    "checksum": "SHA-256:f683cbe5966d3431a70a375bfdc4d8ac12cfbd24e9e42889124f30f61a27f24c",
+    "archiveFileName": "GFX_Library_for_Arduino-1.6.8.zip"
+  },
+  {
+    "name": "TFT_eSPI",
+    "version": "2.5.43",
+    "url": "https://downloads.arduino.cc/libraries/github.com/Bodmer/TFT_eSPI-2.5.43.zip",
+    "checksum": "SHA-256:277a05b523f839e37309fc4de4dfcf0910d4eb0895b7335d10f4940aaf8e17fc",
+    "archiveFileName": "TFT_eSPI-2.5.43.zip"
+  },
+  {
+    "name": "lvgl",
+    "version": "9.3.0",
+    "url": "https://downloads.arduino.cc/libraries/github.com/lvgl/lvgl-9.3.0.zip",
+    "checksum": "SHA-256:45c57d2824473d07c5f93f3a2751b4d33d42046e9ab513afd9429d8650c57e02",
+    "archiveFileName": "lvgl-9.3.0.zip"
+  },
+  {
+    "name": "OneButton",
+    "version": "2.6.2",
+    "url": "https://downloads.arduino.cc/libraries/github.com/mathertel/OneButton-2.6.2.zip",
+    "checksum": "SHA-256:262799fc8c3a848b2c70898d35140d81792b0c3c5fd518b21c5de78ab14e5960",
+    "archiveFileName": "OneButton-2.6.2.zip"
+  },
+  {
+    "name": "ESP Async WebServer",
+    "version": "3.12.1",
+    "url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/ESP_Async_WebServer-3.12.1.zip",
+    "checksum": "SHA-256:ff41fcf62fc0a848f1743bec88fbf95fb0915c10b265185481fb3ed0f379989e",
+    "archiveFileName": "ESP_Async_WebServer-3.12.1.zip"
+  },
+  {
+    "name": "Async TCP",
+    "version": "3.5.0",
+    "url": "https://downloads.arduino.cc/libraries/github.com/ESP32Async/Async_TCP-3.5.0.zip",
+    "checksum": "SHA-256:0e7f17e62339ba6d820d34e4493824389c18d1b820cdb7ba4ec178454af6d741",
+    "archiveFileName": "Async_TCP-3.5.0.zip"
+  },
+  {
+    "name": "PubSubClient",
+    "version": "2.8.0",
+    "url": "https://downloads.arduino.cc/libraries/github.com/knolleary/PubSubClient-2.8.0.zip",
+    "checksum": "SHA-256:f0849b93a2b02e263a6c157c374d6103caefba753a47dcbef64bbec620b079fe",
+    "archiveFileName": "PubSubClient-2.8.0.zip"
+  },
+  {
+    "name": "NimBLE-Arduino",
+    "version": "2.5.1",
+    "url": "https://downloads.arduino.cc/libraries/github.com/h2zero/NimBLE_Arduino-2.5.1.zip",
+    "checksum": "SHA-256:8fb09b1cde59f4ca5e6172d620c379968db959a883209289a9315b03eec27fe2",
+    "archiveFileName": "NimBLE_Arduino-2.5.1.zip"
+  },
+  {
+    "name": "ArduinoJson",
+    "version": "7.4.3",
+    "url": "https://downloads.arduino.cc/libraries/github.com/bblanchon/ArduinoJson-7.4.3.zip",
+    "checksum": "SHA-256:cd8d2f7e4f06eb7e215beecb0de5326a82d047a994e84246572ad73ddc52746f",
+    "archiveFileName": "ArduinoJson-7.4.3.zip"
+  },
+  {
+    "name": "RTClib",
+    "version": "2.1.4",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/RTClib-2.1.4.zip",
+    "checksum": "SHA-256:8dc4bbf8f25e12353533778f13295e9fe12ed6a92d66a8e8c062b24d83fe70dd",
+    "archiveFileName": "RTClib-2.1.4.zip"
+  },
+  {
+    "name": "DHT sensor library",
+    "version": "1.4.7",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/DHT_sensor_library-1.4.7.zip",
+    "checksum": "SHA-256:5c5d3881b49840c7be98cc0848a48930bbac364fadc7edb7965fe98f9bb1463f",
+    "archiveFileName": "DHT_sensor_library-1.4.7.zip"
+  },
+  {
+    "name": "Adafruit INA219",
+    "version": "1.2.3",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_INA219-1.2.3.zip",
+    "checksum": "SHA-256:7187663dc53a87c2d4d83216ccd66f680453c9e9b48416d4632d6f00632e631e",
+    "archiveFileName": "Adafruit_INA219-1.2.3.zip"
+  },
+  {
+    "name": "RF24",
+    "version": "1.6.2",
+    "url": "https://downloads.arduino.cc/libraries/github.com/TMRh20/RF24-1.6.2.zip",
+    "checksum": "SHA-256:22270a8f60e0dd90ad0a4fb3f0923e9054cba5e71c4da8afd65041fe00e2cf3e",
+    "archiveFileName": "RF24-1.6.2.zip"
+  },
+  {
+    "name": "IRremote",
+    "version": "4.7.1",
+    "url": "https://downloads.arduino.cc/libraries/github.com/z3t0/IRremote-4.7.1.zip",
+    "checksum": "SHA-256:33d7630e883cc60088b8d81f4fd1129b72bf14894edd56ec3ddbed998b3d4ce1",
+    "archiveFileName": "IRremote-4.7.1.zip"
+  },
+  {
+    "name": "Adafruit BusIO",
+    "version": "1.17.4",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_BusIO-1.17.4.zip",
+    "checksum": "SHA-256:c7bab1b6c6eee64b50964c8e149b795719a01f1d9dfcdcef170b35daa696349b",
+    "archiveFileName": "Adafruit_BusIO-1.17.4.zip"
+  },
+  {
+    "name": "Adafruit Unified Sensor",
+    "version": "1.1.15",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Unified_Sensor-1.1.15.zip",
+    "checksum": "SHA-256:d64cdec0b817535f568fc3b8b8d44e7e097749f5ab8040aea573f412a3cbaec6",
+    "archiveFileName": "Adafruit_Unified_Sensor-1.1.15.zip"
+  }
+]

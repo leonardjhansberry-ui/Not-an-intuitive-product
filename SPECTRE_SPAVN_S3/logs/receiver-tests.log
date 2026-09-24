@@ -1,0 +1,10 @@
+test_conflicting_replay_rejected (test_receiver.ReceiverTests.test_conflicting_replay_rejected) ... ok
+test_invalid_data_not_stored (test_receiver.ReceiverTests.test_invalid_data_not_stored) ... ok
+test_reboot_sequence_is_separate (test_receiver.ReceiverTests.test_reboot_sequence_is_separate) ... ok
+test_retry_is_deduplicated_and_persists (test_receiver.ReceiverTests.test_retry_is_deduplicated_and_persists) ... ok
+test_storage_failure_does_not_ack (test_receiver.ReceiverTests.test_storage_failure_does_not_ack) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK

@@ -1,0 +1,69 @@
+{
+  "scope": "Compilation only; no physical device tested. Compatibility probes are not integrated firmware.",
+  "builds": [
+    {
+      "target": "spectre",
+      "compile": "PASS",
+      "app_bytes": 427071,
+      "static_ram_bytes": 26064,
+      "log": "logs/spectre.log"
+    },
+    {
+      "target": "spavn",
+      "compile": "PASS",
+      "app_bytes": 427071,
+      "static_ram_bytes": 26064,
+      "log": "logs/spavn.log"
+    },
+    {
+      "target": "common",
+      "compile": "PASS",
+      "app_bytes": 1508303,
+      "static_ram_bytes": 125496,
+      "log": "logs/common.log"
+    },
+    {
+      "target": "tft_espi",
+      "compile": "PASS",
+      "app_bytes": 336019,
+      "static_ram_bytes": 21392,
+      "log": "logs/tft_espi.log"
+    },
+    {
+      "target": "idf_display",
+      "compile": "PASS",
+      "app_bytes": 311571,
+      "static_ram_bytes": 20732,
+      "log": "logs/idf_display.log"
+    },
+    {
+      "target": "async_web",
+      "compile": "PASS",
+      "app_bytes": 989115,
+      "static_ram_bytes": 43816,
+      "log": "logs/async_web.log"
+    },
+    {
+      "target": "usb_keyboard",
+      "compile": "PASS",
+      "app_bytes": 366983,
+      "static_ram_bytes": 40608,
+      "log": "logs/usb_keyboard.log"
+    },
+    {
+      "target": "speech",
+      "compile": "PASS",
+      "app_bytes": 802063,
+      "static_ram_bytes": 33580,
+      "log": "logs/speech.log"
+    }
+  ],
+  "receiver_tests": {
+    "passed": 5,
+    "log": "logs/receiver-tests.log"
+  },
+  "additional_examples": {
+    "passed": 25,
+    "results": "additional25/results.json"
+  }
+}

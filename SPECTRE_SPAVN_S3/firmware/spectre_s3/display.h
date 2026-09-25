@@ -5,7 +5,16 @@
 Arduino_ESP32SPI screenBus(TFT_DC, TFT_CS, TFT_SCK, TFT_MOSI, GFX_NOT_DEFINED);
 Arduino_ILI9488_18bit screen(&screenBus, TFT_RST, 3, false);
 bool displayReady = false;
-void beginDisplay() { displayReady = screen.begin(16000000); }
+void beginDisplay() {
+  pinMode(TFT_RST, OUTPUT);
+  digitalWrite(TFT_RST, HIGH);
+  delay(50);
+  digitalWrite(TFT_RST, LOW);
+  delay(150);
+  digitalWrite(TFT_RST, HIGH);
+  delay(250);
+  displayReady = screen.begin(10000000);
+}
 void drawPage(unsigned page, const char* title, bool link, unsigned count, uint32_t dropped,
               const String& result, uint64_t uptime) {
   if (!displayReady) return;

@@ -5,6 +5,7 @@
 #include "config.h"
 #include "queue.h"
 #include "display.h"
+#include "peripherals.h"
 
 #if !defined(CONFIG_IDF_TARGET_ESP32S3)
 #error This firmware targets ESP32-S3 only
@@ -51,8 +52,9 @@ void processCommand(const char* line) {
     }
   } else if (!strncmp(line, "RESULT ", 7)) {
     lastResult = String(line + 7).substring(0, 100);
-  } else if (!strcmp(line, "HELP")) {
-    Serial.println("HELP NEXT PREV SAMPLE SYNC CYID_PING CYID_STATUS");
+  } else if (!strcmp(line, "PERIPH")) showPeripherals();
+  else if (!strcmp(line, "HELP")) {
+    Serial.println("HELP NEXT PREV SAMPLE SYNC CYID_PING CYID_STATUS PERIPH");
   }
 }
 void pollSerial() {
@@ -98,6 +100,7 @@ void setup() {
   ready = initializeBootId();
   if (!ready) { Serial.println("ERROR boot identity storage unavailable"); return; }
   beginDisplay();
+  beginPeripherals();
 #if ENABLE_BUTTONS
   for (int pin : BUTTON_PINS) pinMode(pin, INPUT_PULLUP);
 #endif
@@ -113,7 +116,7 @@ void loop() {
   sendPending();
   static uint32_t drawn = 0;
   static unsigned previousPage = 99;
-  if (page != previousPage || (uint32_t)(millis()-drawn) >= 1000) {
+  if (page != previousPage) {
     drawPage(page, pages[page], linked, pending.size(), pending.dropped, lastResult,
              (uint64_t)(esp_timer_get_time()/1000000));
     drawn = millis(); previousPage = page;

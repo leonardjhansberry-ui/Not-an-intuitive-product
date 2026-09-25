@@ -67,8 +67,25 @@ void beginPeripherals() {
 
   showPeripherals();
 }
+void runRfTxTest() {
+  if (!e01Ready) { Serial.println("RFTEST,ERROR=E01_NOT_READY"); return; }
+  const uint8_t address[6] = "CYID1";
+  e01Radio.setChannel(76);
+  e01Radio.setPALevel(RF24_PA_LOW);
+  e01Radio.setDataRate(RF24_1MBPS);
+  e01Radio.setAutoAck(false);
+  e01Radio.openWritingPipe(address);
+  e01Radio.stopListening();
+  uint32_t payload = 0x43594944;
+  Serial.println("RFTEST,START,CHANNEL=76,PACKETS=3000");
+  for (uint16_t i=0;i<3000;i++) { payload ^= i; e01Radio.write(&payload,sizeof(payload)); delay(3); }
+  e01Radio.setAutoAck(true);
+  Serial.println("RFTEST,DONE,CHANNEL=76,PACKETS=3000");
+}
+
 #else
 void beginPeripherals() {}
+void runRfTxTest() {}
 void showPeripherals() {
   Serial.println("PERIPH,NOT_AVAILABLE=SPAVN_PROFILE");
 }

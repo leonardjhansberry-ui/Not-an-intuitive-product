@@ -53,8 +53,9 @@ void processCommand(const char* line) {
   } else if (!strncmp(line, "RESULT ", 7)) {
     lastResult = String(line + 7).substring(0, 100);
   } else if (!strcmp(line, "PERIPH")) showPeripherals();
+  else if (!strcmp(line, "RFTEST")) runRfTxTest();
   else if (!strcmp(line, "HELP")) {
-    Serial.println("HELP NEXT PREV SAMPLE SYNC CYID_PING CYID_STATUS PERIPH");
+    Serial.println("HELP NEXT PREV SAMPLE SYNC CYID_PING CYID_STATUS PERIPH RFTEST");
   }
 }
 void pollSerial() {
